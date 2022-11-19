@@ -29,11 +29,9 @@ export function Post({
     setLiked(!liked);
     if (you === likedBy) {
       setYou("você");
-      console.log(likesNumber);
       setLikesNumber(+likesNumber + 1);
     } else {
       setYou(likedBy);
-      console.log(likesNumber);
       setLikesNumber(+likesNumber - 1);
     }
     if (doubleClicked === true) {
