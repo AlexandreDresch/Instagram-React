@@ -1,0 +1,19 @@
+.right-content {
+    width: 100%;
+    position: sticky;
+    top: 120px;
+}
+
+.right-content-footer {
+    margin-top: 10px;
+}
+
+.right-content-footer a, .right-content-footer p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+
+.right-content-footer p {
+    margin-top: 18px;
+}

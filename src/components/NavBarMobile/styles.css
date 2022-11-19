@@ -1,0 +1,20 @@
+.header-mobile {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.header-mobile .logo-text {
+    width: 103px;
+    height: 29px;
+}
+

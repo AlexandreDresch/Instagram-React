@@ -1,0 +1,128 @@
+.post {
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+}
+
+.post-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 17px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.profile-info img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.more-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    position: relative;
+}
+
+.heart-like-image {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    top: 30%;
+    left: 30%;
+    animation: 0.5s like-heart-animation ease-in-out forwards;
+}
+
+@keyframes like-heart-animation {
+    0%,
+    to {
+      opacity: 1;
+      -webkit-transform: scale(0.2);
+      transform: scale(0);
+    }
+    15% {
+      opacity: 1;
+      -webkit-transform: scale(0.2);
+      transform: scale(1.2);
+    }
+    30% {
+      -webkit-transform: scale(0.95);
+      transform: scale(0.95);
+    }
+    45%,
+    80% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+video {
+    width: 100%;
+}
+
+.post-footer {
+    height: 75px;
+}
+
+.post-footer-icons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 5px;
+}
+
+.post-footer-icons-container div {
+    display: flex;
+    margin-right: 6px;
+    margin-left: 4px;
+}
+
+.post-footer-icons-container div .footer-icon {
+    width: 24px;
+    margin-right: 6px;
+}
+
+.post-footer-icons-container .footer-icon {
+    width: 24px;
+}
+
+.post-footer img {
+    width: 20px;
+    height: 20px;
+}
+
+.likes-container {
+    display: flex;
+    margin-left: 13px;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.post-footer-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.post-footer-text span {
+    font-weight: 500;
+}

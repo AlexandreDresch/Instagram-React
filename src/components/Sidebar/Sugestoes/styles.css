@@ -1,0 +1,33 @@
+.sugestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sugestions-header p {
+    color: #8E8E8E;
+}
+
+.sugestions-header a {
+    color: #262626;
+}
+
+.sugestions-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.users-sugestions {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-sugestions img {
+    width: 32px;
+    height: 32px;
+    margin-right: 11px;
+}

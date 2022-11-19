@@ -1,0 +1,38 @@
+.your-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.your-profile img {
+    width: 56px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.pencil-icon {
+    width: 12px;
+    height: 13px;
+    padding: 0px;
+    margin-left: -20px;
+}
+
+.your-profile-info .user {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.your-profile-info .under-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.name-icon-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 10px;
+}
+

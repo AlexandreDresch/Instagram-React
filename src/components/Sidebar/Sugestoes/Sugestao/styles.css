@@ -1,0 +1,31 @@
+.sugestion-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-sugestion {
+    display: flex;
+    align-items: center;
+}
+
+.sugestion-info {
+    margin-top: 10px;
+}
+
+.sugestion-info a {    
+    font-weight: 500;
+    color: #262626;
+}
+
+.sugestion-info p {
+    font-size: 12px;
+    margin-top: 7px;
+    color: #8E8E8E;
+}
+
+.sugestion-right .follow {
+    font-size: 12px;    
+    font-weight: 500;
+    color: #139EF2;
+}
