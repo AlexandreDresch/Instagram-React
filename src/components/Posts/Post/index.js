@@ -36,6 +36,9 @@ export function Post({
       console.log(likesNumber);
       setLikesNumber(+likesNumber - 1);
     }
+    if (doubleClicked === true) {
+      setDoubleClicked(false);
+    }
   }
 
   function handleDoubleClickLike () {    
@@ -43,7 +46,7 @@ export function Post({
       setLiked(!liked);
       setYou('você');
       setLikesNumber(+likesNumber + 1);
-      setDoubleClicked(true);
+      setDoubleClicked(!doubleClicked);
     }          
   }
 
@@ -114,7 +117,7 @@ export function Post({
           <img src={likedByPicture} alt="profile" />
           <p className="post-footer-text">
             Curtido por <span>{you}</span> e{" "}
-            <span data-test="likes-number">outras {likesNumber} pessoas</span>
+            <span data-test="likes-number">outras {likesNumber.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')} pessoas</span>
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@
 }
 
 .body-container {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: #FAFAFA;
 }
 
@@ -63,6 +63,15 @@
 
     .post-content img {
         width: 100vw;
+    }
+
+    .post-content img.heart-like-image {
+        position: absolute;
+        width: 250px;        
+        z-index: 1;
+        top: 25%;
+        left: 25%;
+        animation: 0.5s like-heart-animation ease-in-out forwards;
     }
 
     footer {
